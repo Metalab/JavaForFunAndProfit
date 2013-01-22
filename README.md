@@ -1,4 +1,4 @@
 JavaForFunAndProfit
 ===================
 
-http://metalab.at/wiki/javaforfunandprofit
+https://metalab.at/wiki/JavaforFunandProfit
