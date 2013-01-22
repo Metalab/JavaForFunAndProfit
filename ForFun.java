@@ -17,7 +17,6 @@ public abstract class ForFun extends Frame {
     }
 
     public void paint(Graphics g) {
-//      screen_buffer.getGraphics().drawLine(0,0,300,300);
       g.drawImage(screen_buffer,0,0, this);
     }
 
@@ -69,6 +68,7 @@ public abstract class ForFun extends Frame {
               outputStream.writeByte(b);
               buffer.setElem(i, pixels[i]);
             }
+	   drawing.paint(drawing.getGraphics());
 
             outputStream.flush();
 
